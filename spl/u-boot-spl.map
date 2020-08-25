@@ -1,0 +1,909 @@
+Archive member included because of file (symbol)
+
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(spl_fh.o)
+                              start.o (start_armboot)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(lowlevel_init.o)
+                              start.o (lowlevel_init)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(spl_lib.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(spl_fh.o) (board_init_f)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(interrupts.o)
+                              start.o (do_irq)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(console.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(interrupts.o) (printf)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(dlmalloc.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(spl_lib.o) (mem_malloc_init)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_common.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(spl_lib.o) (board_init_r)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_ymodem.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_common.o) (spl_ymodem_load_image)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(stdio.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(console.o) (stdio_get_list)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(xyzModem.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_ymodem.o) (xyzModem_error)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(crc16.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(xyzModem.o) (cyg_crc16)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(string.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(stdio.o) (strcpy)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(vsprintf.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(interrupts.o) (panic)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(time.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(xyzModem.o) (udelay)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(ctype.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(string.o) (_ctype)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(div64.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(vsprintf.o) (__div64_32)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libserial.a(serial_fh81.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(spl_lib.o) (serial_init)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_spl_load.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_common.o) (spl_spi_load_image)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_flash.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_spl_load.o) (spi_flash_probe)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(sf_mtd.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_flash.o) (spi_flash_mtd_unregister)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(macronix.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_flash.o) (spi_flash_probe_macronix)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spansion.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_flash.o) (spi_flash_probe_spansion)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(winbond.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_flash.o) (spi_flash_probe_winbond)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(boya.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_flash.o) (spi_flash_probe_boya)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(default_flash.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_flash.o) (spi_flash_probe_default)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdcore.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(sf_mtd.o) (del_mtd_device)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdpart.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(sf_mtd.o) (mtd_erase_callback)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi.a(fh81_spi.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_flash.o) (spi_claim_bus)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgpio.a(fh_gpio.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi.a(fh81_spi.o) (gpio_direction_output)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(cpu.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(winbond.o) (add_soft_reset)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(timer.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_common.o) (timer_init)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(fh62.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(interrupts.o) (reset_cpu)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(cache-cp15.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(cpu.o) (icache_disable)
+/home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(reset.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(vsprintf.o) (do_reset)
+/opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivsi3.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(vsprintf.o) (__aeabi_uidiv)
+/opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_lshrdi3.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(vsprintf.o) (__aeabi_llsr)
+/opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_aeabi_uldivmod.o)
+                              /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(timer.o) (__aeabi_uldivmod)
+/opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_dvmd_lnx.o)
+                              /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivsi3.o) (__div0)
+/opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+                              /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+/opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+                              /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o) (__divdi3)
+/opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+                              /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o) (__udivdi3)
+/opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_clz.o)
+                              /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o) (__clz_tab)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 start.o
+ .bss           0x00000000        0x0 start.o
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(spl_fh.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(spl_fh.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(lowlevel_init.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(lowlevel_init.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(spl_lib.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(interrupts.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(interrupts.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(console.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_ymodem.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_ymodem.o)
+ .data          0x00000000        0xc /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(stdio.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(xyzModem.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(crc16.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(crc16.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(string.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(vsprintf.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(time.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(time.o)
+ .text          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(ctype.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(ctype.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(div64.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(div64.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libserial.a(serial_fh81.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_spl_load.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_spl_load.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_flash.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_flash.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(sf_mtd.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(macronix.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(macronix.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spansion.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spansion.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(boya.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdcore.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdpart.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi.a(fh81_spi.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi.a(fh81_spi.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgpio.a(fh_gpio.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgpio.a(fh_gpio.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(cpu.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(timer.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(fh62.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(fh62.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(cache-cp15.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(cache-cp15.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(reset.o)
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(reset.o)
+ .data          0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/_build/arch/arm/lib/eabi_compat.o
+ .bss           0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/_build/arch/arm/lib/eabi_compat.o
+ .data          0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_lshrdi3.o)
+ .bss           0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_lshrdi3.o)
+ .data          0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_dvmd_lnx.o)
+ .bss           0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_dvmd_lnx.o)
+ .data          0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+ .ARM.extab     0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+ .text          0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_clz.o)
+ .data          0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_clz.o)
+ .bss           0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_clz.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00000000                . = 0x0
+                0x00000000                . = ALIGN (0x4)
+
+.text           0xa0400000     0x97cc
+ start.o(.text)
+ .text          0xa0400000      0x340 start.o
+                0xa0400000                _start
+                0xa0400040                _end_vect
+                0xa0400048                _armboot_start
+                0xa040004c                _bss_start
+                0xa0400050                _bss_end
+ *(.text)
+ .text          0xa0400340       0x18 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(spl_fh.o)
+                0xa0400340                spl_boot_device
+                0xa0400348                start_armboot
+ .text          0xa0400358        0x4 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(lowlevel_init.o)
+                0xa0400358                lowlevel_init
+ .text          0xa040035c       0x30 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(spl_lib.o)
+                0xa040035c                board_init_f
+ .text          0xa040038c      0x26c /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(interrupts.o)
+                0xa040038c                enable_interrupts
+                0xa0400390                disable_interrupts
+                0xa0400398                show_regs
+                0xa04004d8                bad_mode
+                0xa04004fc                do_irq
+                0xa0400520                do_fiq
+                0xa0400544                do_not_used
+                0xa0400568                do_data_abort
+                0xa040058c                do_prefetch_abort
+                0xa04005b0                do_software_interrupt
+                0xa04005d4                do_undefined_instruction
+ .text          0xa04005f8      0x558 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(console.o)
+                0xa04006a0                fgetc
+                0xa04006d0                ftstc
+                0xa0400700                fputc
+                0xa0400734                fputs
+                0xa0400768                disable_ctrlc
+                0xa0400780                had_ctrlc
+                0xa0400790                clear_ctrlc
+                0xa04007a4                dbg
+                0xa04007b0                console_init_f
+                0xa04007c0                search_device
+                0xa04007e8                console_assign
+                0xa0400828                fprintf
+                0xa040086c                puts
+                0xa0400888                vprintf
+                0xa04008b8                printf
+                0xa04008f4                stdio_print_current_devices
+                0xa04009b8                console_init_r
+                0xa0400a68                serial_printf
+                0xa0400aa4                putc
+                0xa0400ac0                tstc
+                0xa0400ad8                getc
+                0xa0400af0                ctrlc
+ .text          0xa0400b50     0x11f4 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(dlmalloc.o)
+                0xa0400b50                sbrk
+                0xa0400b98                malloc_trim
+                0xa0400ccc                free
+                0xa0400f10                cfree
+                0xa0400f14                malloc
+                0xa04015a8                memalign
+                0xa04016c4                pvalloc
+                0xa04016dc                valloc
+                0xa04016e8                malloc_usable_size
+                0xa040172c                mallopt
+                0xa04017a0                calloc
+                0xa0401888                mem_malloc_init
+                0xa04018c8                realloc
+ .text          0xa0401d44      0x30c /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_common.o)
+                0xa0401d44                spl_board_prepare_for_linux
+                0xa0401d48                spl_set_header_raw_uboot
+                0xa0401d80                jump_to_image_no_args
+                0xa0401d88                spl_init
+                0xa0401d9c                board_boot_order
+                0xa0401db0                spl_relocate_stack_gd
+                0xa0401db8                preloader_console_init
+                0xa0401df8                hang
+                0xa0401e08                board_init_r
+                0xa0401f2c                spl_parse_image_header
+ .text          0xa0402050      0x108 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_ymodem.o)
+                0xa0402050                spl_ymodem_load_image
+ .text          0xa0402158      0x184 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(stdio.o)
+                0xa0402158                stdio_get_list
+                0xa0402164                stdio_clone
+                0xa04021b4                stdio_register
+                0xa04021fc                stdio_init
+                0xa0402288                stdio_get_by_name
+ .text          0xa04022dc      0x9a8 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(xyzModem.o)
+                0xa04022dc                parse_num
+                0xa0402404                xyzModem_error
+                0xa04024a0                xyzModem_stream_close
+                0xa04024f4                CYGACC_COMM_IF_PUTC
+                0xa04024fc                CYGACC_COMM_IF_GETC_TIMEOUT
+                0xa0402558                xyzModem_stream_terminate
+                0xa04028d4                xyzModem_stream_read
+                0xa0402b28                xyzModem_stream_open
+ .text          0xa0402c84       0x48 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(crc16.o)
+                0xa0402c84                cyg_crc16
+ .text          0xa0402ccc      0x7d4 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(string.o)
+                0xa0402ccc                strcpy
+                0xa0402ce8                strncpy
+                0xa0402d10                strcat
+                0xa0402d44                strncat
+                0xa0402da8                strcmp
+                0xa0402de0                strncmp
+                0xa0402e30                strchr
+                0xa0402e5c                strrchr
+                0xa0402ea4                strlen
+                0xa0402ec4                strnlen
+                0xa0402eec                strspn
+                0xa0402f30                strpbrk
+                0xa0402f70                strtok
+                0xa0403048                strsep
+                0xa04030b0                strswab
+                0xa04030fc                memset
+                0xa0403174                bcopy
+                0xa04031a0                memcpy
+                0xa040321c                memmove
+                0xa0403278                memcmp
+                0xa04032b8                memscan
+                0xa04032e8                strstr
+                0xa040336c                memchr
+                0xa040339c                skip_spaces
+                0xa04033c0                strim
+                0xa0403438                strdup
+ .text          0xa04034a0      0xf48 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(vsprintf.o)
+                0xa04034a0                simple_strtoul
+                0xa0403558                simple_strtol
+                0xa040358c                ustrtoul
+                0xa04035f8                simple_strtoull
+                0xa04037b8                panic
+                0xa0403c54                vsprintf
+                0xa0404304                sprintf
+                0xa0404324                ultohstr
+ .text          0xa04043e8       0x30 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(time.o)
+                0xa04043e8                udelay
+ .text          0xa0404418       0xf4 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(div64.o)
+                0xa0404418                __div64_32
+ .text          0xa040450c      0x31c /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libserial.a(serial_fh81.o)
+                0xa040450c                Uart_Disable_Irq
+                0xa0404524                Uart_Enable_Irq
+                0xa040453c                Uart_Fifo_Config
+                0xa040455c                Uart_Read_Control_Status
+                0xa0404568                Uart_Set_Line_Control
+                0xa0404588                Uart_Read_Line_Status
+                0xa0404594                Uart_Set_Clock_Divisor
+                0xa04045e0                Uart_Read_Rx_Fifo_Level
+                0xa04045ec                Uart_Read_Data
+                0xa0404634                Uart_Write_Data
+                0xa0404688                Uart_Init
+                0xa04046fc                serial_setbrg
+                0xa0404700                serial_init
+                0xa0404748                serial_getc
+                0xa040477c                serial_putc
+                0xa04047e0                serial_tstc
+                0xa04047f8                serial_puts
+ .text          0xa0404828      0x1dc /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_spl_load.o)
+                0xa0404900                spl_spi_load_image
+ .text          0xa0404a04      0x310 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_flash.o)
+                0xa0404a04                spi_flash_free
+                0xa0404a24                spi_flash_cmd_write
+                0xa0404a98                spi_flash_cmd_read
+                0xa0404b0c                spi_flash_read_common
+                0xa0404b60                spi_flash_cmd
+                0xa0404bd4                spi_flash_probe
+ .text          0xa0404d14      0x214 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(sf_mtd.o)
+                0xa0404d18                spi_flash_mtd_unregister
+                0xa0404d24                spi_flash_mtd_register
+ .text          0xa0404f28      0x5dc /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(macronix.o)
+                0xa0404f28                spi_flash_probe_macronix
+                0xa0405070                macronix_protect
+                0xa04053c0                macronix_erase
+ .text          0xa0405504      0x540 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spansion.o)
+                0xa0405504                spi_flash_probe_spansion
+                0xa04057d0                spansion_erase
+                0xa04058e8                spansion_protect
+ .text          0xa0405a44      0x854 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(winbond.o)
+                0xa0405acc                spi_flash_checksize
+                0xa0405b50                spi_flash_reset_4byte_winbond
+                0xa0405c08                spi_flash_probe_winbond
+                0xa0405d24                spi_flash_soft_reset
+                0xa0405d58                winbond_protect
+                0xa0406138                winbond_erase
+ .text          0xa0406298      0x6f8 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(boya.o)
+                0xa0406320                spi_flash_probe_boya
+ .text          0xa0406990      0x808 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(default_flash.o)
+                0xa0406ad0                spi_flash_probe_default
+ .text          0xa0407198      0x1c4 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdcore.o)
+                0xa0407198                get_mtd_device
+                0xa0407208                put_mtd_device
+                0xa0407234                del_mtd_device
+                0xa0407288                add_mtd_device
+                0xa04072f4                get_mtd_device_nm
+ .text          0xa040735c      0xee0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdpart.o)
+                0xa04078b8                mtd_erase_callback
+                0xa0407b68                del_mtd_partitions
+                0xa0407bec                add_mtd_partitions
+ .text          0xa040823c      0x450 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi.a(fh81_spi.o)
+                0xa040823c                Spi_Enable
+                0xa0408248                Spi_SetPolarity
+                0xa0408264                Spi_SetPhase
+                0xa0408280                Spi_SetFrameFormat
+                0xa040829c                Spi_SetDataSize
+                0xa04082b8                Spi_SetTransferMode
+                0xa04082d4                Spi_SetContinueReadDataNum
+                0xa04082e4                Spi_SetBaudrate
+                0xa04082f0                Spi_DisableIrq
+                0xa0408308                Spi_ReadStatus
+                0xa0408314                spi_cs_is_valid
+                0xa040832c                spi_init
+                0xa0408330                spi_init_f
+                0xa0408334                spi_read
+                0xa040833c                spi_write
+                0xa0408344                spi_claim_bus
+                0xa04083e4                spi_release_bus
+                0xa0408400                spi_free_slave
+                0xa0408408                spi_setup_slave
+                0xa0408490                Spi_DisableSlaveen
+                0xa04084d4                spi_cs_deactivate
+                0xa04084e8                Spi_EnableSlaveen
+                0xa040852c                spi_cs_activate
+                0xa0408540                spi_xfer
+ .text          0xa040868c       0xe0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgpio.a(fh_gpio.o)
+                0xa040868c                gpio_dir_set
+                0xa04086bc                gpio_data_set
+                0xa04086ec                gpio_data_get
+                0xa0408700                gpio_direction_output
+ .text          0xa040876c       0xa0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(cpu.o)
+                0xa040876c                do_soft_reset
+                0xa04087a8                add_soft_reset
+                0xa04087e0                cleanup_before_linux
+ .text          0xa040880c      0x22c /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(timer.o)
+                0xa040880c                timer_init
+                0xa0408860                get_ticks
+                0xa04088f0                get_tbclk
+                0xa0408914                reset_timer_masked
+                0xa0408948                reset_timer
+                0xa040897c                set_timer
+                0xa0408998                __udelay
+                0xa04089e4                get_timer_masked
+                0xa0408a24                get_timer
+ .text          0xa0408a38       0x24 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(fh62.o)
+                0xa0408a38                arch_cpu_init
+                0xa0408a40                reset_cpu
+ .text          0xa0408a5c      0x120 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(cache-cp15.o)
+                0xa0408a5c                icache_enable
+                0xa0408a9c                icache_disable
+                0xa0408adc                icache_status
+                0xa0408aec                dcache_enable
+                0xa0408b2c                dcache_disable
+                0xa0408b6c                dcache_status
+ .text          0xa0408b7c       0x38 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(reset.o)
+                0xa0408b7c                do_reset
+ .text          0xa0408bb4       0x28 /home/huxy/projects/release/fh6x_rtt/_source/uboot/_build/arch/arm/lib/eabi_compat.o
+                0xa0408bb4                __aeabi_unwind_cpp_pr0
+                0xa0408bb8                raise
+ .text          0xa0408bdc       0xc4 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivsi3.o)
+                0xa0408bdc                __udivsi3
+                0xa0408bdc                __aeabi_uidiv
+                0xa0408c88                __aeabi_uidivmod
+ .text          0xa0408ca0       0x1c /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_lshrdi3.o)
+                0xa0408ca0                __aeabi_llsr
+                0xa0408ca0                __lshrdi3
+ .text          0xa0408cbc       0x1c /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_aeabi_uldivmod.o)
+                0xa0408cbc                __aeabi_uldivmod
+ .text          0xa0408cd8       0x10 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_dvmd_lnx.o)
+                0xa0408cd8                __div0
+ .text          0xa0408ce8       0x88 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+                0xa0408ce8                __gnu_uldivmod_helper
+                0xa0408d2c                __gnu_ldivmod_helper
+ .text          0xa0408d70      0x558 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+                0xa0408d70                __divdi3
+ .text          0xa04092c8      0x504 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+                0xa04092c8                __udivdi3
+
+.glue_7         0xa04097cc        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0xa04097cc        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0xa04097cc        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0xa04097cc        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+                0xa04097cc                . = ALIGN (0x4)
+
+.rodata         0xa04097cc     0x104d
+ *(SORT(.rodata*))
+ .rodata        0xa04097cc       0x80 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(interrupts.o)
+ .rodata        0xa040984c       0x3c /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(vsprintf.o)
+                0xa040984c                hex_asc
+ .rodata        0xa0409888       0x64 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(macronix.o)
+ .rodata        0xa04098ec       0x84 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spansion.o)
+ .rodata        0xa0409970       0x10 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi.a(fh81_spi.o)
+                0xa0409970                SPI_FLASH_CS
+                0xa0409978                FH_SPI_BASE
+ .rodata        0xa0409980        0x8 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgpio.a(fh_gpio.o)
+ .rodata        0xa0409988      0x200 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(crc16.o)
+ .rodata        0xa0409b88        0x8 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(winbond.o)
+ .rodata        0xa0409b90        0x8 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(boya.o)
+ .rodata        0xa0409b98        0x8 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(default_flash.o)
+ .rodata        0xa0409ba0       0x12 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdpart.o)
+ .rodata        0xa0409bb2      0x100 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_clz.o)
+                0xa0409bb2                __clz_tab
+ .rodata.str1.1
+                0xa0409cb2      0x267 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(interrupts.o)
+                                0x27b (size before relaxing)
+ .rodata.str1.1
+                0xa0409f19       0x70 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(console.o)
+                                 0x74 (size before relaxing)
+ .rodata.str1.1
+                0xa0409f89      0x10f /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_common.o)
+                                0x113 (size before relaxing)
+ .rodata.str1.1
+                0xa040a098       0x27 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_ymodem.o)
+ .rodata.str1.1
+                0xa040a0bf       0x1b /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(stdio.o)
+ .rodata.str1.1
+                0xa040a0da       0xe3 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(xyzModem.o)
+                                 0xe5 (size before relaxing)
+ .rodata.str1.1
+                0xa040a1bd       0x21 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(vsprintf.o)
+ .rodata.str1.1
+                0xa040a1de       0xb0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_spl_load.o)
+ .rodata.str1.1
+                0xa040a28e       0x43 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_flash.o)
+ .rodata.str1.1
+                0xa040a2d1       0x50 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(sf_mtd.o)
+                                 0x74 (size before relaxing)
+ .rodata.str1.1
+                0xa040a321      0x12e /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(macronix.o)
+ .rodata.str1.1
+                0xa040a44f       0xc9 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spansion.o)
+                                0x151 (size before relaxing)
+ .rodata.str1.1
+                0xa040a518       0x7c /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(winbond.o)
+                                 0xda (size before relaxing)
+ .rodata.str1.1
+                0xa040a594        0x9 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(boya.o)
+                                 0xb7 (size before relaxing)
+ .rodata.str1.1
+                0xa040a59d        0xe /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(default_flash.o)
+                                 0xbc (size before relaxing)
+ .rodata.str1.1
+                0xa040a5ab       0x50 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdcore.o)
+ .rodata.str1.1
+                0xa040a5fb      0x1f4 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdpart.o)
+ .rodata.str1.1
+                0xa040a7ef        0xf /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(reset.o)
+ .rodata.str1.1
+                0xa040a7fe       0x1b /home/huxy/projects/release/fh6x_rtt/_source/uboot/_build/arch/arm/lib/eabi_compat.o
+
+.ARM.exidx      0xa040a81c       0x20
+ .ARM.exidx     0xa040a81c        0x8 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+                                 0x10 (size before relaxing)
+ .ARM.exidx     0xa040a824        0x8 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+ .ARM.exidx     0xa040a82c       0x10 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+                                  0x8 (size before relaxing)
+
+.rel.dyn        0xa040a83c        0x0
+ .rel.got       0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+                0xa040a83c                . = ALIGN (0x4)
+
+.data           0xa040a83c      0x61c
+ *(.data)
+ .data          0xa040a83c       0x20 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(spl_lib.o)
+                0xa040a83c                gdata
+ .data          0xa040a85c      0x414 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(dlmalloc.o)
+ .data          0xa040ac70       0x48 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_common.o)
+                0xa040ac70                boot_name_table
+ .data          0xa040acb8      0x100 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(ctype.o)
+                0xa040acb8                _ctype
+ .data          0xa040adb8       0x78 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(winbond.o)
+ .data          0xa040ae30       0x14 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(boya.o)
+ .data          0xa040ae44       0x14 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(default_flash.o)
+
+.got.plt        0xa040ae58        0xc
+ .got.plt       0xa040ae58        0xc /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+                0xa040ae58                _GLOBAL_OFFSET_TABLE_
+                0xa040ae64                . = ALIGN (0x4)
+
+.got            0xa040ae64        0x4
+ *(.got)
+ .got           0xa040ae64        0x4 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+                0xa040ae68                . = .
+                0xa040ae68                __u_boot_cmd_start = .
+
+.u_boot_cmd
+ *(.u_boot_cmd)
+                0xa040ae68                __u_boot_cmd_end = .
+                0xa040ae68                . = ALIGN (0x4)
+                0xa040ae68                __bss_start = .
+
+.bss            0xa040ae68      0x698
+ *(.bss)
+ .bss           0xa040ae68        0x8 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(console.o)
+ .bss           0xa040ae70       0x44 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(dlmalloc.o)
+                0xa040ae70                mem_malloc_start
+                0xa040ae74                mem_malloc_end
+                0xa040ae78                mem_malloc_brk
+ .bss           0xa040aeb4       0x1c /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_common.o)
+                0xa040aeb4                boot_params_ptr
+                0xa040aeb8                spl_image
+ .bss           0xa040aed0       0x48 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(stdio.o)
+                0xa040aed0                stdio_devices
+ .bss           0xa040af18      0x43c /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(xyzModem.o)
+ .bss           0xa040b354        0x4 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(string.o)
+                0xa040b354                ___strtok
+ .bss           0xa040b358       0x14 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(vsprintf.o)
+ .bss           0xa040b36c       0x10 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libserial.a(serial_fh81.o)
+                0xa040b36c                uart
+ *fill*         0xa040b37c        0x4 00
+ .bss           0xa040b380       0xb8 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(sf_mtd.o)
+ .bss           0xa040b438        0x4 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(winbond.o)
+ .bss           0xa040b43c        0x4 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(default_flash.o)
+ .bss           0xa040b440       0x80 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdcore.o)
+                0xa040b440                mtd_table
+ .bss           0xa040b4c0        0x8 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdpart.o)
+                0xa040b4c0                mtd_partitions
+ .bss           0xa040b4c8       0x24 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(cpu.o)
+ *fill*         0xa040b4ec        0x4 00
+ .bss           0xa040b4f0       0x10 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(timer.o)
+                0xa040b500                . = ALIGN (0x4)
+                0xa040b500                _end = .
+Address of section .text set to 0xa0400000
+START GROUP
+LOAD /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a
+LOAD /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a
+LOAD /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a
+LOAD /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh62_devboard.a
+LOAD /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a
+LOAD /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libserial.a
+LOAD /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a
+LOAD /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a
+LOAD /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi.a
+LOAD /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgpio.a
+END GROUP
+LOAD /home/huxy/projects/release/fh6x_rtt/_source/uboot/_build/arch/arm/lib/eabi_compat.o
+LOAD /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a
+OUTPUT(u-boot-spl elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x2b
+ .ARM.attributes
+                0x00000000       0x1d start.o
+ .ARM.attributes
+                0x0000001d       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(spl_fh.o)
+ .ARM.attributes
+                0x0000004a       0x1d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(lowlevel_init.o)
+ .ARM.attributes
+                0x00000067       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(spl_lib.o)
+ .ARM.attributes
+                0x00000094       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(interrupts.o)
+ .ARM.attributes
+                0x000000c1       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(console.o)
+ .ARM.attributes
+                0x000000ee       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(dlmalloc.o)
+ .ARM.attributes
+                0x0000011b       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_common.o)
+ .ARM.attributes
+                0x00000148       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_ymodem.o)
+ .ARM.attributes
+                0x00000175       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(stdio.o)
+ .ARM.attributes
+                0x000001a2       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(xyzModem.o)
+ .ARM.attributes
+                0x000001cf       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(crc16.o)
+ .ARM.attributes
+                0x000001fc       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(string.o)
+ .ARM.attributes
+                0x00000229       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(vsprintf.o)
+ .ARM.attributes
+                0x00000256       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(time.o)
+ .ARM.attributes
+                0x00000283       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(ctype.o)
+ .ARM.attributes
+                0x000002b0       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(div64.o)
+ .ARM.attributes
+                0x000002dd       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libserial.a(serial_fh81.o)
+ .ARM.attributes
+                0x0000030a       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_spl_load.o)
+ .ARM.attributes
+                0x00000337       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_flash.o)
+ .ARM.attributes
+                0x00000364       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(sf_mtd.o)
+ .ARM.attributes
+                0x00000391       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(macronix.o)
+ .ARM.attributes
+                0x000003be       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spansion.o)
+ .ARM.attributes
+                0x000003eb       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(winbond.o)
+ .ARM.attributes
+                0x00000418       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(boya.o)
+ .ARM.attributes
+                0x00000445       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(default_flash.o)
+ .ARM.attributes
+                0x00000472       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdcore.o)
+ .ARM.attributes
+                0x0000049f       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdpart.o)
+ .ARM.attributes
+                0x000004cc       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi.a(fh81_spi.o)
+ .ARM.attributes
+                0x000004f9       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgpio.a(fh_gpio.o)
+ .ARM.attributes
+                0x00000526       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(cpu.o)
+ .ARM.attributes
+                0x00000553       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(timer.o)
+ .ARM.attributes
+                0x00000580       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(fh62.o)
+ .ARM.attributes
+                0x000005ad       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(cache-cp15.o)
+ .ARM.attributes
+                0x000005da       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(reset.o)
+ .ARM.attributes
+                0x00000607       0x2d /home/huxy/projects/release/fh6x_rtt/_source/uboot/_build/arch/arm/lib/eabi_compat.o
+ .ARM.attributes
+                0x00000634       0x1f /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000653       0x1f /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_lshrdi3.o)
+ .ARM.attributes
+                0x00000672       0x1f /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000691       0x1f /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_dvmd_lnx.o)
+ .ARM.attributes
+                0x000006b0       0x2f /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x000006df       0x2f /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x0000070e       0x2f /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x0000073d       0x2f /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_clz.o)
+
+.comment        0x00000000       0x21
+ .comment       0x00000000       0x21 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(spl_fh.o)
+                                 0x22 (size before relaxing)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(spl_lib.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(interrupts.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(console.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(dlmalloc.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_common.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_ymodem.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(stdio.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(xyzModem.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(crc16.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(string.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(vsprintf.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(time.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(ctype.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(div64.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libserial.a(serial_fh81.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_spl_load.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_flash.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(sf_mtd.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(macronix.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spansion.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(winbond.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(boya.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(default_flash.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdcore.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdpart.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi.a(fh81_spi.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgpio.a(fh_gpio.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(cpu.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(timer.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(fh62.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(cache-cp15.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(reset.o)
+ .comment       0x00000000       0x22 /home/huxy/projects/release/fh6x_rtt/_source/uboot/_build/arch/arm/lib/eabi_compat.o
+ .comment       0x00000000       0x22 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+ .comment       0x00000000       0x22 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+ .comment       0x00000000       0x22 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+ .comment       0x00000000       0x22 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_clz.o)
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(spl_fh.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(spl_lib.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(interrupts.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(console.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(dlmalloc.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_common.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(spl_ymodem.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(stdio.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libcommon.a(xyzModem.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(crc16.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(string.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(vsprintf.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(time.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(ctype.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgeneric.a(div64.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libserial.a(serial_fh81.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_spl_load.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spi_flash.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(sf_mtd.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(macronix.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(spansion.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(winbond.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(boya.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi_flash.a(default_flash.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdcore.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libmtd.a(mtdpart.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libspi.a(fh81_spi.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libgpio.a(fh_gpio.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(cpu.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(timer.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libfh.a(fh62.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(cache-cp15.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/spl//libarm.a(reset.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/huxy/projects/release/fh6x_rtt/_source/uboot/_build/arch/arm/lib/eabi_compat.o
+ .note.GNU-stack
+                0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivsi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_lshrdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_aeabi_uldivmod.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_dvmd_lnx.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_clz.o)
+
+.debug_frame    0x00000000       0xe8
+ .debug_frame   0x00000000       0x28 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000028       0x50 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+ .debug_frame   0x00000078       0x38 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+ .debug_frame   0x000000b0       0x38 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+
+.debug_line     0x00000000      0x604
+ .debug_line    0x00000000       0xc1 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivsi3.o)
+ .debug_line    0x000000c1       0xa0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_lshrdi3.o)
+ .debug_line    0x00000161       0x9a /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x000001fb       0xa0 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_dvmd_lnx.o)
+ .debug_line    0x0000029b       0x9e /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+ .debug_line    0x00000339      0x12b /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+ .debug_line    0x00000464      0x118 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+ .debug_line    0x0000057c       0x88 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_clz.o)
+
+.debug_info     0x00000000     0x137e
+ .debug_info    0x00000000      0x123 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivsi3.o)
+ .debug_info    0x00000123      0x123 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_lshrdi3.o)
+ .debug_info    0x00000246      0x11d /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x00000363      0x123 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_dvmd_lnx.o)
+ .debug_info    0x00000486       0xde /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+ .debug_info    0x00000564      0x6c9 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+ .debug_info    0x00000c2d      0x68c /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+ .debug_info    0x000012b9       0xc5 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_clz.o)
+
+.debug_abbrev   0x00000000      0x43c
+ .debug_abbrev  0x00000000       0x14 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x00000014       0x14 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x00000028       0x14 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x0000003c       0x14 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_dvmd_lnx.o)
+ .debug_abbrev  0x00000050       0x6a /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+ .debug_abbrev  0x000000ba      0x19b /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+ .debug_abbrev  0x00000255      0x17d /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x000003d2       0x6a /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_clz.o)
+
+.debug_aranges  0x00000000       0xe0
+ .debug_aranges
+                0x00000000       0x20 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x00000020       0x20 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_lshrdi3.o)
+ .debug_aranges
+                0x00000040       0x20 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_aeabi_uldivmod.o)
+ .debug_aranges
+                0x00000060       0x20 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_dvmd_lnx.o)
+ .debug_aranges
+                0x00000080       0x20 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+ .debug_aranges
+                0x000000a0       0x20 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+ .debug_aranges
+                0x000000c0       0x20 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+
+.debug_loc      0x00000000     0x10f3
+ .debug_loc     0x00000000      0x136 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+ .debug_loc     0x00000136      0x814 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+ .debug_loc     0x0000094a      0x7a9 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+
+.debug_pubnames
+                0x00000000       0xa4
+ .debug_pubnames
+                0x00000000       0x45 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+ .debug_pubnames
+                0x00000045       0x1f /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+ .debug_pubnames
+                0x00000064       0x20 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+ .debug_pubnames
+                0x00000084       0x20 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_clz.o)
+
+.debug_str      0x00000000      0x291
+ .debug_str     0x00000000       0xd3 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(bpabi.o)
+ .debug_str     0x000000d3      0x1b4 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+                                0x239 (size before relaxing)
+ .debug_str     0x00000287        0xa /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
+                                0x23a (size before relaxing)
+ .debug_str     0x00000000      0x1bd /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_clz.o)
+
+.debug_ranges   0x00000000      0x190
+ .debug_ranges  0x00000000       0xd8 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_divdi3.o)
+ .debug_ranges  0x000000d8       0xb8 /opt/fullhan/toolchain/arm-fullhan-linux-uclibcgnueabi/bin/../lib/gcc/arm-fullhan-linux-uclibcgnueabi/4.3.2/libgcc.a(_udivdi3.o)
